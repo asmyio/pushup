@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:all_sensors/all_sensors.dart';
 import 'dart:async';
 
@@ -57,7 +58,16 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
-            if (_proximityValues == true) Text('PUSH UP!!!', textScaleFactor: 5,) else Text('GO DOWN...', textScaleFactor: 2,),
+            if (_proximityValues == true) 
+            Text('PUSH UP!!!', 
+                  textScaleFactor: 5,
+                  style: GoogleFonts.baloo(),            
+                  textAlign: TextAlign.center,) 
+            else 
+            Text('GO DOWN...', 
+                  textScaleFactor: 2, 
+                  style: GoogleFonts.baloo(),
+                  textAlign: TextAlign.center,),
             Text(
               '$_counter Push Ups',
               style: Theme.of(context).textTheme.headline4,
