@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.yellow
       ),
-      home: MyHomePage(title: 'Push it Up!')
+      home: MyHomePage()
     );
   }
 }
@@ -42,25 +42,24 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
+        title: Text("💪🏻💪🏼💪🏽💪🏾💪🏿"),
+        backgroundColor: Colors.white,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(
+            bottom: Radius.circular(30)
+          )
+        ),
         centerTitle: true,
-        bottom: PreferredSize(
-          child: Container (color: Colors.redAccent,height: 4.0,), preferredSize: Size.fromHeight(4.0)),
-        title: Text(widget.title),
       ),
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
-            Text(
-              'Ahmad Siraj MY wants you to',
-            ),
             if (_proximityValues == true) Text('PUSH UP!!!', textScaleFactor: 5,) else Text('GO DOWN...', textScaleFactor: 2,),
             Text(
-              'you have pushed up about...',
-            ),
-            Text(
-              '$_counter times',
+              '$_counter Push Ups',
               style: Theme.of(context).textTheme.headline4,
               textScaleFactor: 1,
             ),
@@ -76,6 +75,10 @@ class _MyHomePageState extends State<MyHomePage> {
         label: Text('RESET'),
         icon:  Icon(Icons.all_inclusive),
         backgroundColor: Colors.white,
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+      bottomNavigationBar: BottomAppBar(
+        child: Text("asmy.dev", textAlign: TextAlign.center,), 
       ),
     );
   }
