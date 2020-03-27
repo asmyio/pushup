@@ -1,3 +1,6 @@
-# pushup
+# Push Up!
  
- I'll edit this thing later, kinda busy at the moment.
+ This app enables you to push up everywhere, anywhere and anytime.
+ 
+ device requirement:
+ proximity sensor
