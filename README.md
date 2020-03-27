@@ -4,7 +4,7 @@
  
  Device requirements:
  
- 1)Android 5.0+
+ 1)Android 5.0 and above
  2)Proximity sensor
  
  How to use it:
