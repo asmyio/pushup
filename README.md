@@ -2,9 +2,9 @@
  
  This app enables you to push up everywhere, anywhere and anytime.
  
- device requirement:
- Android 5.0+
- proximity sensor
+ Device requirements:
+ a)Android 5.0+
+ b)Proximity sensor
  
  How to use it:
  1) Place the device on the floor
@@ -12,4 +12,6 @@
  3) Push Up!
  
  How does it work:
+ This app utilize the proximity sensor on your device, as you go down and your face approaches the device -
+ the proximity sensor registers a value and that triggers the counter
  
