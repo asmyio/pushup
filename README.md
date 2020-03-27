@@ -4,8 +4,8 @@
  
  Device requirements:
  
- 1)Android 5.0 and above
- 2)Proximity sensor
+ 1) Android 5.0+
+ 2) Proximity sensor
  
  How to use it:
  1) Place the device on the floor
