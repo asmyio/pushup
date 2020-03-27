@@ -3,7 +3,9 @@
  This app enables you to push up everywhere, anywhere and anytime.
  
  Device requirements:
+ 
  a)Android 5.0+
+ 
  b)Proximity sensor
  
  How to use it:
