@@ -17,4 +17,4 @@
  This app utilize the proximity sensor on your device, as you go down and your face approaches the device -
  the proximity sensor registers a value and that triggers the counter
  
- apk: https://drive.google.com/open?id=1qzaX65m7pvrZqGECNNev75RD2e_xxeQ-
+ Play Store: https://play.google.com/store/apps/details?id=dev.asmy.pushup
